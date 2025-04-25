@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechSmart – Productos tecnológicos que mejoran tu día</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0d0d0d;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(135deg, #1f1f1f, #2a2a2a);
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    .hero-img {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+      object-fit: cover;
+    }
+    .product {
+      background-color: #1c1c1c;
+      border-radius: 12px;
+      padding: 1rem;
+      margin: 1rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .product h2 {
+      margin-top: 0.5rem;
+      font-size: 1.4rem;
+    }
+    .product p {
+      font-size: 0.9rem;
+    }
+    .price {
+      font-size: 1.2rem;
+      color: #00ff99;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #00ff99;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #111;
+    }
+    .share-btn {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #008cff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TechSmart</h1>
+    <p>Productos tecnológicos que mejoran tu día</p>
+    <img class="hero-img" src="https://example.com/portada.jpg" alt="Portada TechSmart">
+  </header>
+
+  <main>
+    <section class="product">
+      <img src="https://example.com/audifonos.jpg" alt="Audífonos inalámbricos TWS">
+      <h2>Audífonos inalámbricos TWS</h2>
+      <p>Sonido envolvente y libertad total.</p>
+      <p class="price">$99.900</p>
+      <ul>
+        <li>Bluetooth 5.3</li>
+        <li>Cancelación de ruido</li>
+        <li>Hasta 20h de batería</li>
+      </ul>
+      <a class="btn" href="https://wa.me/573001112233">Comprar</a>
+    </section>
+
+    <section class="product">
+      <img src="https://example.com/soporte.jpg" alt="Soporte magnético para celular">
+      <h2>Soporte para celular magnético</h2>
+      <p>Firmeza y comodidad para tu auto o escritorio.</p>
+      <p class="price">$39.900</p>
+      <ul>
+        <li>Imán potente</li>
+        <li>Rotación 360°</li>
+        <li>Compatibilidad universal</li>
+      </ul>
+      <a class="btn" href="https://wa.me/573001112233">Comprar</a>
+    </section>
+
+    <!-- Agrega aquí las otras secciones de producto similares -->
+
+    <section class="product">
+      <img src="https://example.com/proyector.jpg" alt="Mini proyector portátil">
+      <h2>Mini proyector portátil</h2>
+      <p>Cine en casa o donde tú quieras.</p>
+      <p class="price">$229.900</p>
+      <ul>
+        <li>HD 1080p</li>
+        <li>Entrada HDMI/USB</li>
+        <li>Batería recargable</li>
+      </ul>
+      <a class="btn" href="https://wa.me/573001112233">Comprar</a>
+    </section>
+
+    <!-- Repite para Power Bank, Smartwatch, Luces LED, Cámara Wi-Fi, Cargador rápido -->
+
+  </main>
+
+  <footer>
+    <p>Contacto: +57 300 111 2233</p>
+    <p>Instagram: <a href="https://instagram.com/techsmart">@techsmart</a></p>
+    <p>Web: <a href="https://techsmart.co">techsmart.co</a></p>
+    <button class="share-btn" onclick="navigator.share({title:'Catálogo TechSmart', url:window.location.href})">Compartir Catálogo</button>
+  </footer>
+</body>
+</html>
